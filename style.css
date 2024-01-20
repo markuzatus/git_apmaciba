@@ -1,0 +1,14 @@
+/*selektors{
+    deklamacija 1;
+    deklamacija 2;
+    deklamacija 3;
+} */
+
+h1,h2{
+    color:#e6e92df3
+}
+
+
+h1.main_title{
+    color:red
+}
