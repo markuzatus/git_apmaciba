@@ -8,26 +8,40 @@
 <body>
     <h1>HTML Formas</h1>
 
-    
-    <fieldset>
+
     <form action="">
+        <fieldset>
+            <legend>Personal information:</legend>
         <div class="formElement">
             <label for="nameInput">Your name:</label>
             <input type="text" name="name" id="nameInput">
         </div>
         <div class="formElement">
             <label for="surnameInput">Your surname:</label>
-            <input type="text" name="surname" id="surnameInput"
+            <input type="text" name="surname" id="surnameInput">
         </div>
         <div class="formElement">
             <label for="mailInput">Your email:</label>
-            <input type="email" name="email" id="mailInput"
+            <input type="email" name="email" id="mailInput">
         </div>
         <div class="formElement">
             <label for="phoneInput">Your phone number:</label>
-            <input type="phone" name="phone" id="phoneInput"
+            <input type="phone" name="phone" id="phoneInput">
         </div>
     </fieldset>
+
+    <fieldset>
+        <legend>Create a new password:</legend>
+        <div class="formElement">
+            <label for="passwordInput">New password:</label>
+            <input type="password" name="password" id="passwordInput">
+            <label for="passwordInput">New password again:</label>
+            <input type="password" name="passwordRepeat" id="passwordInput2">
+        </div>
+    </fieldset>
+
+
     </form>
 </body>
+
 </html>
