@@ -49,14 +49,26 @@
             </select>
         </div>
         <div class="formElement">
+            <label for="birthDate">Your birth date:</label>
+            <input type="date" name="birthDate" id="birthDate">
+        </div>
+        <div class="formElement">
             <label for="biography">Your biography:</label>
             <textarea name="biography" id="biography" cols="30" rows="10"></textarea>
         </div>
-
-        
+        <div class="formElement">
+            <label for="profilePicture">Profile photo:</label>
+            <input type="file" name="profilePicture" id="profilePicture">
+        </div>
     </fieldset>
-
-
+    <fieldset>
+        <legend>Profile settings</legend>
+        <div class="formElement">
+            <input type="checkbox" name="activeProfile" id="activeProfile" value="true">
+            <label for="activeProfile">Active profile:</label>
+        </div>
+    </fieldset>
+    <input type="submit" value="Register">
     </form>
 </body>
 
