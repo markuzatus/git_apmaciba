@@ -13,20 +13,20 @@
         <fieldset>
             <legend>Personal information:</legend>
         <div class="formElement">
-            <label for="nameInput">Your name:</label>
-            <input type="text" name="name" id="nameInput">
+            <label for="nameInput"><span>*</span>Your name:</label>
+            <input type="text" name="name" id="nameInput" required>
         </div>
         <div class="formElement">
-            <label for="surnameInput">Your surname:</label>
-            <input type="text" name="surname" id="surnameInput">
+            <label for="surnameInput"><span>*</span>Your surname:</label>
+            <input type="text" name="surname" id="surnameInput" required>
         </div>
         <div class="formElement">
-            <label for="mailInput">Your email:</label>
-            <input type="email" name="email" id="mailInput">
+            <label for="mailInput"><span>*</span>Your email:</label>
+            <input type="email" name="mailInput" id="mailInput" required>
         </div>
         <div class="formElement">
-            <label for="phoneInput">Your phone number:</label>
-            <input type="phone" name="phone" id="phoneInput">
+            <label for="phoneInput"><span>*</span>Your phone number:</label>
+            <input type="phone" name="phoneInput" id="phoneInput" required>
         </div>
     </fieldset>
 
@@ -34,9 +34,9 @@
         <legend>Create a new password:</legend>
         <div class="formElement">
             <label for="passwordInput">New password:</label>
-            <input type="password" name="password" id="passwordInput">
+            <input type="password" name="password" id="passwordInput" pattern="[A-z]{8}" required>
             <label for="passwordInput">New password again:</label>
-            <input type="password" name="passwordRepeat" id="passwordInput2">
+            <input type="password" name="passwordRepeat" id="passwordInput2" pattern="[A-z]{8}" required>
         </div>
     </fieldset>
     <fieldset>
@@ -54,7 +54,7 @@
         </div>
         <div class="formElement">
             <label for="biography">Your biography:</label>
-            <textarea name="biography" id="biography" cols="30" rows="10"></textarea>
+            <textarea name="biography" id="biography" cols="30" rows="10" maxlength="300"></textarea>
         </div>
         <div class="formElement">
             <label for="profilePicture">Profile photo:</label>
