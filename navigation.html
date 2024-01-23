@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0
+        }
+
+        nav{
+            height: 75px;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav > a, .submenu > a, .submenu_link{
+            /* margin: 0px 20px; */
+            display: block;
+            padding: 5px 20px;
+            text-decoration: none;
+            color:rgba(0, 0, 0, 0.168);
+            border-right: 1px solid rgba(0, 0, 0, 0.144);
+            transition: all .15s ease-in;
+        }
+
+        nav a:last-child{
+            border-right: none;
+        }
+
+        nav a:hover{
+            color:black;
+            font-size: 25px;
+            transition: all .3s ease-in;
+        }
+
+        .submenu{
+            display: none;
+            flex-direction: column;
+            padding: 10px;
+            background-color: beige;
+            position:absolute;
+            top:80px;
+            right:22%;
+            outline:2px solid red;
+
+        }
+        .submenu > a{
+            border-right: none;
+        }
+
+
+        .submenu_link:hover .submenu{
+            display:block;
+        } 
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Saite 1</a>
+        <a href="#">Saite 2</a>
+        <a href="#">Saite 3</a>
+        <a href="#">Saite 3</a>
+        <a href="#">Saite 3</a>
+        <a href="#">Saite 3</a>
+        <div href="#" class="submenu_link">Menu
+            <div class="submenu">
+                <a href="">Submenu Item</a>
+                <a href="">Submenu Item</a>
+                <a href="">Submenu Item</a>
+                <a href="">Submenu Item</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
+    
