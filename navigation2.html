@@ -5,48 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            margin: 0px;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&display=swap');
+    body{
+        margin: 0px;
+    }
 
-        nav{
-            background: #92B4A7;
-            height: 57px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    nav{
+        background: #92B4A7;
+        height: 57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        nav a{
-            color: #000;
-            text-align: center;
-            font-family: Inter;
-            font-size: 25px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            text-decoration: none;
-            display: block;
-            margin: 0px calc(42px/2);
-        }
+    nav a{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        display: block;
+        margin: 0px calc(42px/2);
+    }
 
-        nav a::before{
-            content:"";
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            background-color: #030000;
-            display: inline-block;
-            margin-right: 10px;
-        }
-    </style>
+    nav a::before{
+        content:"";
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: #030000;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+        top:2px;
+    }
+</style>
 </head>
 <body>
-    <nav>
-        <a href="">Main</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Contacts</a> 
-    </nav>
+<nav>
+    <a href="">Main</a>
+    <a href="">About</a>
+    <a href="">Services</a>
+    <a href="">Contacts</a> 
+</nav>
 </body>
 </html>
