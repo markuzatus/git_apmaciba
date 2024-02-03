@@ -1,0 +1,26 @@
+*{
+    margin: 100;
+    padding: 100;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 0%;
+    height: 0vh;
+}
+
+nav{
+    display: flex;
+    width: 0%;
+    margin:auto;
+    padding: 0px 0;
+    align-items: ;
+    justify-content: ;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
