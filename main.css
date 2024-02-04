@@ -1,5 +1,8 @@
     body{
         margin: 0px;
+        background-image: url(https://cdn.pixabay.com/photo/2016/10/04/12/17/white-1714170_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     nav{
@@ -22,6 +25,13 @@
         display: block;
         margin: 0px calc(42px/2); 
     }
+
+    nav a:hover{
+        transform: translate(-10px,10px); ;
+        color: rgb(207, 212, 46);
+        transition: all .5s;
+        cursor: pointer;
+       }
 
     h1{
         font-size: 35px;
