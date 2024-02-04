@@ -31,44 +31,54 @@
 </h1>
 
 <form action="">
+
     <fieldset>
         <legend>Personal information:</legend>
     <div class="formElement">
         <label for="nameInput"><span>*</span>Your name:</label>
         <input type="text" name="name" id="nameInput" required>
     </div>
+
     <div class="formElement">
         <label for="surnameInput"><span>*</span>Your surname:</label>
         <input type="text" name="surname" id="surnameInput" required>
     </div>
+
     <div class="formElement">
         <label for="mailInput"><span>*</span>Your email:</label>
         <input type="email" name="mailInput" id="mailInput" required>
     </div>
+
     <div class="formElement">
         <label for="phoneInput"><span>*</span>Your phone number:</label>
         <input type="phone" name="phoneInput" id="phoneInput" required>
     </div>
 </fieldset>
+
 <fieldset>
     <legend>More info:</legend>
     <div class="formElement">
-        <label for="genderInput"><span>*</span>Your gender:</label>
+        <label for="genderInput">Your gender:</label>
         <select name="gender" id="genderInput">
             <option value="man">Man</option>
             <option value="woman">Woman</option>
         </select>
     </div>
+
     <div class="formElement">
-        <label for="birthDate"><span>*</span>Your birth date:</label>
+        <label for="birthDate">Your birth date:</label>
         <input type="date" name="birthDate" id="birthDate">
     </div>
+
     <div class="formElement">
-        <label for="message"><span>*</span>Your message:</label>
+        <label for="message">Your message:</label>
         <textarea name="message" id="message" cols="30" rows="10" maxlength="300"></textarea>
     </div>
 </fieldset>
-    <input type="submit" value="Send">
+
+<button id="button">Send</button>
+<id="input">
+
 </form>
 </body>
 </html>
