@@ -6,53 +6,69 @@
     <title>Contact me</title>
 </head>
 <body>
-    <nav>
-        <a href="./portfolio.html">Back</a>
-        <a href="./contact me.html">Contact me</a>
-    </nav>
 
-    <h1>Contact me:</h1>
+<link rel="stylesheet" href="contact me.css">
 
+<style>
+    @font-face {
+        font-family: "PermanentMarker-Regular";
+        src: url(PermanentMarker-Regular.ttf)
+    }
+    
+    *{
+        font-family: PermanentMarker-Regular;
+        }
+</style>
 
-    <form action="">
-        <fieldset>
-            <legend>Personal information:</legend>
-        <div class="formElement">
-            <label for="nameInput"><span>*</span>Your name:</label>
-            <input type="text" name="name" id="nameInput" required>
-        </div>
-        <div class="formElement">
-            <label for="surnameInput"><span>*</span>Your surname:</label>
-            <input type="text" name="surname" id="surnameInput" required>
-        </div>
-        <div class="formElement">
-            <label for="mailInput"><span>*</span>Your email:</label>
-            <input type="email" name="mailInput" id="mailInput" required>
-        </div>
-        <div class="formElement">
-            <label for="phoneInput"><span>*</span>Your phone number:</label>
-            <input type="phone" name="phoneInput" id="phoneInput" required>
-        </div>
-    </fieldset>
+<nav>
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+
+    <a href="./portfolio.html">Back</a>
+</nav>
+
+<h1>
+    Contact me:
+</h1>
+
+<form action="">
     <fieldset>
-        <legend>More info:</legend>
-        <div class="formElement">
-            <label for="genderInput">Your gender:</label>
-            <select name="gender" id="genderInput">
-                <option value="man">Man</option>
-                <option value="woman">Woman</option>
-            </select>
-        </div>
-        <div class="formElement">
-            <label for="birthDate">Your birth date:</label>
-            <input type="date" name="birthDate" id="birthDate">
-        </div>
-        <div class="formElement">
-            <label for="message">Your message:</label>
-            <textarea name="message" id="message" cols="30" rows="10" maxlength="300"></textarea>
-        </div>
-    </fieldset>
-        <input type="submit" value="Send">
-    </form>
+        <legend>Personal information:</legend>
+    <div class="formElement">
+        <label for="nameInput"><span>*</span>Your name:</label>
+        <input type="text" name="name" id="nameInput" required>
+    </div>
+    <div class="formElement">
+        <label for="surnameInput"><span>*</span>Your surname:</label>
+        <input type="text" name="surname" id="surnameInput" required>
+    </div>
+    <div class="formElement">
+        <label for="mailInput"><span>*</span>Your email:</label>
+        <input type="email" name="mailInput" id="mailInput" required>
+    </div>
+    <div class="formElement">
+        <label for="phoneInput"><span>*</span>Your phone number:</label>
+        <input type="phone" name="phoneInput" id="phoneInput" required>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>More info:</legend>
+    <div class="formElement">
+        <label for="genderInput"><span>*</span>Your gender:</label>
+        <select name="gender" id="genderInput">
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+        </select>
+    </div>
+    <div class="formElement">
+        <label for="birthDate"><span>*</span>Your birth date:</label>
+        <input type="date" name="birthDate" id="birthDate">
+    </div>
+    <div class="formElement">
+        <label for="message"><span>*</span>Your message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" maxlength="300"></textarea>
+    </div>
+</fieldset>
+    <input type="submit" value="Send">
+</form>
 </body>
 </html>
