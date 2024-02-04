@@ -13,30 +13,14 @@
     nav a{
         color: #060606;
         text-align: center;
-        font-family: Inter;
-        font-size: 20px;
+        font-family: 'Frijole', system-ui;
+        font-size: 25px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-decoration: none;
         display: block;
-        margin: 0px calc(42px/2);
-
-        font-family: "PermanentMarker-Regular";
-        src: url(PermanentMarker-Regular.ttf)
-        
-    }
-
-    nav a::before{
-        content:"";
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
-        background-color: #0d0606;
-        display: inline-block;
-        margin-right: 10px;
-        position: relative;
-        top:2px;
+        margin: 0px calc(42px/2); 
     }
 
     h1{
