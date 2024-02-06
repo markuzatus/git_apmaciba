@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+
+    <link rel="stylesheet" href="contactMe.css">
+</head>
+
+<body>
+
+    <nav>
+        <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+
+        <a href="./index.html">Back</a>
+    </nav>
+
+    <h1>
+        Contact me:
+    </h1>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Personal information:</legend>
+            <div class="formElement">
+                <label for="nameInput"><span>*</span>Name:</label>
+                <input type="text" name="name" id="nameInput" required>
+            </div>
+
+            <div class="formElement">
+                <label for="surnameInput"><span>*</span>Surname:</label>
+                <input type="text" name="surname" id="surnameInput" required>
+            </div>
+
+            <div class="formElement">
+                <label for="mailInput"><span>*</span>Email:</label>
+                <input type="email" name="mailInput" id="mailInput" required>
+            </div>
+
+            <div class="formElement">
+                <label for="phoneInput"><span>*</span>Phone number:</label>
+                <input type="phone" name="phoneInput" id="phoneInput" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>More info:</legend>
+            <div class="formElement">
+                <label for="genderInput">Gender:</label>
+                <select name="gender" id="genderInput">
+                    <option value="man">Man</option>
+                    <option value="woman">Woman</option>
+                    <option value="woman">Prefer not to say</option>
+                </select>
+            </div>
+
+            <div class="formElement">
+                <label for="birthDate">Birth date:</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+
+            <div class="formElement">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" maxlength="300"></textarea>
+            </div>
+        </fieldset>
+
+        <button id="button">Send</button>
+        <id="input">
+
+    </form>
+</body>
+
+</html>

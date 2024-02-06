@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "PermanentMarker-Regular";
+    src: url(PermanentMarker-Regular.ttf)
+}
+
+* {
+    font-family: PermanentMarker-Regular;
+}
+
+body {
+    margin: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/04/12/17/white-1714170_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    font-size: 18px;
+}
+
+legend {
+    font-size: 23px;
+}
+
+input {
+    background: #c0c0b8;
+    color: #000000;
+    border: #000000;
+    width: calc(10% - 10px);
+    height: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+option{
+    background: #c0c0b8;
+}
+
+select{
+    background: #c0c0b8;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background: #c0c0b8;
+    color: #000000; 
+    border: #000000;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+nav {
+    background: #696b6a;
+    height: 57px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav a {
+    color: #060606;
+    text-align: center;
+    font-family: 'Frijole', system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+    margin: 0px calc(42px/2);
+}
+
+nav a:hover {
+    transform: translate(10px, 10px);
+    ;
+    color: rgb(207, 212, 46);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+button {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Frijole', system-ui;
+    background: #696b6a;
+    margin-bottom: 30px;
+    
+}
+
+button:hover {
+    transform: translate(10px, 10px);
+    ;
+    color: rgb(207, 212, 46);
+    transition: all .5s;
+    cursor: pointer;
+}

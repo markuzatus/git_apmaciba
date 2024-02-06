@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "PermanentMarker-Regular";
+    src: url(PermanentMarker-Regular.ttf)
+}
+
+* {
+    font-family: PermanentMarker-Regular;
+}
+
+body {
+    margin: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/04/12/17/white-1714170_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background: #696b6a;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #060606;
+    text-align: center;
+    font-family: 'Frijole', system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+    margin: 0px calc(42px/2);
+}
+
+nav a:hover {
+    transform: translate(-10px, 10px);
+    ;
+    color: rgb(207, 212, 46);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+nav1 {
+    background: #696b6a;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav1 a {
+    color: #060606;
+    text-align: center;
+    font-family: 'Frijole', system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+    margin: 0px calc(42px/2);
+}
+
+nav1 a:hover {
+    transform: translate(-10px, -10px);
+    ;
+    color: rgb(207, 212, 46);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    top: -200px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+ul {
+    position: relative;
+    top: -200px;
+    font-size: 20px;
+}
+
+h3 {
+    position: relative;
+    margin-left: 1300px;
+    top: -200px;
+    font-size: 25px;
+}
+
+p {
+    position: relative;
+    font-size: 17px;
+    margin-left: 750px;
+    margin-top: -10px;
+}
+
+h4 {
+    margin-left: 350px;
+    font-size: 20px;
+    padding-top: 100px;
+}
