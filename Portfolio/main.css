@@ -77,6 +77,11 @@ h1 {
     text-align: center;
 }
 
+.round-image {
+    position: relative;
+    border-radius: 50%;  
+}
+
 h2 {
     position: relative;
     top: -200px;
@@ -84,7 +89,7 @@ h2 {
     font-size: 25px;
 }
 
-ul {
+.AboutMe {
     position: relative;
     top: -200px;
     font-size: 20px;
@@ -95,6 +100,13 @@ h3 {
     margin-left: 1300px;
     top: -200px;
     font-size: 25px;
+}
+
+.MySkills {
+    position: relative;
+    margin-left: 1260px;
+    font-size: 20px;
+    top: -200px;
 }
 
 p {
@@ -108,4 +120,13 @@ h4 {
     margin-left: 350px;
     font-size: 20px;
     padding-top: 100px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
 }
