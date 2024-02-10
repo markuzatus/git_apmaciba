@@ -95,7 +95,7 @@ button {
 }
 
 button:hover {
-    transform: translate(10px, 10px);
+    transform: translate(10px, -10px);
     ;
     color: rgb(207, 212, 46);
     transition: all .5s;
