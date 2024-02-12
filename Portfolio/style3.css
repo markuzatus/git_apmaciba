@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "PermanentMarker-Regular";
+    src: url(PermanentMarker-Regular.ttf)
+}
+
+* {
+    font-family: PermanentMarker-Regular;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/04/12/17/white-1714170_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background: #696b6a;
+    height: 57px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #060606;
+    text-align: center;
+    font-family: 'Frijole', system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+    margin: 0px calc(42px/2);
+}
+
+nav a:hover {
+    transform: translate(-10px, 10px);
+    ;
+    color: rgb(207, 212, 46);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.wrapper {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper h1 {
+    font-size: 3em;
+    margin: 25px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.card {
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #c0c0b8;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card i {
+    margin: 20px;
+    color: #000000;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card p {
+    color: #000000;
+    text-align: center;
+}
+
+.card:hover i,
+.card:hover p {
+    color: rgb(207, 212, 46);
+}
+
+.card:hover h2 {
+    font-weight: 600;
+}
+
+.card:nth-child(1):hover {
+    background: #696b6a;
+    background-size: cover;
+}
+
+.card:nth-child(2):hover {
+    background: #696b6a;
+    background-size: cover;
+}
+
+.card:nth-child(3):hover {
+    background: #696b6a;
+    background-size: cover;
+}

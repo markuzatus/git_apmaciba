@@ -12,6 +12,8 @@ body {
     background-image: url(https://cdn.pixabay.com/photo/2016/10/04/12/17/white-1714170_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav {
